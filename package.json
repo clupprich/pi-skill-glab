@@ -1,0 +1,29 @@
+{
+  "name": "pi-skill-glab",
+  "version": "0.0.1",
+  "description": "Pi skill for interacting with GitLab via the glab CLI",
+  "keywords": [
+    "pi-package",
+    "gitlab",
+    "glab",
+    "skill"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Christoph Lupprich",
+    "email": "christoph@luppri.ch",
+    "url": "https://christoph.luppri.ch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clupprich/pi-skill-glab"
+  },
+  "bugs": {
+    "url": "https://github.com/clupprich/pi-skill-glab/issues"
+  },
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}
