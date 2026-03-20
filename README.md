@@ -1,6 +1,6 @@
 # pi-skill-glab
 
-A [pi](https://github.com/badlogic/pi) skill for interacting with GitLab via the [glab](https://gitlab.com/gitlab-org/cli) CLI.
+A [pi](https://pi.dev) skill for interacting with GitLab via the [glab](https://gitlab.com/gitlab-org/cli) CLI.
 
 Covers merge requests, issues, CI/CD pipelines, repository management, and draft review notes via the GitLab API.
 
