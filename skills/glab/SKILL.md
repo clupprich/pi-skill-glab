@@ -14,6 +14,11 @@ Interact with GitLab repositories, merge requests, issues, and CI/CD pipelines u
 
 ## Merge Requests
 
+> **Important:** When the user asks to review an MR, **always** use draft review notes (see
+> "Draft Review Notes (Review Comments)" below). Never post review feedback as immediate
+> comments via `glab mr note`. Draft notes are batched and only published when explicitly
+> submitted, giving the user a chance to review and edit them first.
+
 ```bash
 # List open MRs
 glab mr list
